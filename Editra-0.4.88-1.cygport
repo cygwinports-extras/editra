@@ -1,0 +1,14 @@
+inherit distutils
+
+DESCRIPTION="Programmers text editor based on wxPython"
+HOMEPAGE="http://editra.org/"
+SRC_URI="http://editra.org/uploads/src/${P}.tar.gz"
+
+src_install() {
+	cd ${B}
+	distutils_install
+	rm -f ${D}/usr/bin/Editra.pyw
+
+	doicon ${S}/pixmaps/editra.png
+	make_desktop_entry Editra Editra editra "Utility;TextEditor;GTK"
+}
