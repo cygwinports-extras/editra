@@ -8,11 +8,11 @@ of other useful features for over 60 programming languages.
 Runtime requirements:
   python-2.5.4-10
   python-setuptools-0.6c9-10
-  python-wx2.8-2.8.10.1-1
+  python-wx2.8-2.8.10.1-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygport-0.9.9-1
+  cygport-0.9.10-1
   python-2.5.4-10
   python-setuptools-0.6c9-10
 
@@ -25,19 +25,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack Editra-0.5.0-X-src.tar.bz2
+  unpack Editra-0.5.15-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./Editra-0.5.0-X.cygport all
+  cygport ./Editra-0.5.15-X.cygport all
 
 This will create:
-  /usr/src/Editra-0.5.0-X-src.tar.bz2
-  /usr/src/Editra-0.5.0-X.tar.bz2
+  /usr/src/Editra-0.5.15-X-src.tar.bz2
+  /usr/src/Editra-0.5.15-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.5.15-1 -----
+Version bump.
 
 ----- version 0.5.0-1 -----
 Version bump.
