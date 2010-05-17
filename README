@@ -6,15 +6,15 @@ code development. Currently it supports syntax highlighting and variety
 of other useful features for over 60 programming languages.
 
 Runtime requirements:
-  python-2.5.4-10
-  python-setuptools-0.6c9-10
-  python-wx2.8-2.8.10.1-2
+  python-2.6.5-1
+  python-setuptools-0.6c11-1
+  python-wx2.8-2.8.10.1-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygport-0.9.10-1
-  python-2.5.4-10
-  python-setuptools-0.6c9-10
+  cygport-0.9.84-1
+  python-2.6.5-1
+  python-setuptools-0.6c11-1
 
 Canonical website:
   http://editra.org/
@@ -25,19 +25,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack Editra-0.5.25-X-src.tar.bz2
+  unpack Editra-0.5.60-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./Editra-0.5.25-X.cygport all
+  cygport ./Editra-0.5.60-X.cygport all
 
 This will create:
-  /usr/src/Editra-0.5.25-X-src.tar.bz2
-  /usr/src/Editra-0.5.25-X.tar.bz2
+  /usr/src/Editra-0.5.60-X-src.tar.bz2
+  /usr/src/Editra-0.5.60-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.5.60-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.5.25-1 -----
 Version bump.
