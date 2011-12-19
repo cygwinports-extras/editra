@@ -2,7 +2,7 @@ inherit distutils
 
 DESCRIPTION="Programmers text editor based on wxPython"
 HOMEPAGE="http://editra.org/"
-SRC_URI="http://editra.org/uploads/src/${P}.tar.gz"
+#SRC_URI="http://editra.org/uploads/src/${P}.tar.gz"
 
 src_install() {
 	cd ${B}
