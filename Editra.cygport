@@ -1,0 +1,22 @@
+inherit distutils
+
+NAME="Editra"
+VERSION=0.7.20
+RELEASE=1
+CATEGORY="Editors"
+SUMMARY="Programmers text editor"
+DESCRIPTION="Editra is a multi-platform text editor with an implementation
+that focuses on creating an easy to use interface and features that aid in
+code development. Currently it supports syntax highlighting and variety of
+other useful features for over 60 programming languages."
+HOMEPAGE="http://editra.org/"
+#SRC_URI="http://editra.org/uploads/src/${P}.tar.gz"
+
+src_install() {
+	cd ${B}
+	distutils_install
+	rm -f ${D}/usr/bin/Editra.pyw
+
+	doicon ${S}/pixmaps/editra.png
+	make_desktop_entry Editra Editra editra "Utility;TextEditor;GTK"
+}

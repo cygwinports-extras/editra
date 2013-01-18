@@ -1,7 +1,0 @@
-category: Editors
-requires: python python-setuptools python-wx2.8
-sdesc: "Programmers text editor"
-ldesc: "Editra is a multi-platform text editor with an implementation 
-that focuses on creating an easy to use interface and features that aid 
-in code development. Currently it supports syntax highlighting and 
-variety of other useful features for over 60 programming languages."
